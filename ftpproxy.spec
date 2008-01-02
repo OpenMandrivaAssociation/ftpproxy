@@ -11,6 +11,7 @@ License:        GPL
 Group:          Networking/File transfer
 URL:            http://www.ftpproxy.org/
 Source0:        %name-%version.tar.bz2
+BuildRoot:      %_tmppath/%name-buildroot
 
 %description
 ftp.proxy is an application level gateway for FTP. It sits between a client and
