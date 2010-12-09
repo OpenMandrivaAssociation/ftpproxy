@@ -1,6 +1,6 @@
 %define name    ftpproxy
 %define version 1.2.3
-%define release %mkrel 6
+%define release %mkrel 7
 %define Summary Application level gateway for FTP
 
 Summary:        %Summary
