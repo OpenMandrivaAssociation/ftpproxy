@@ -44,3 +44,38 @@ rm -rf %buildroot
 %doc HISTORY INSTALL LICENSE doc/rfc2389.txt doc/rfc959.txt
 %doc samples/*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.3-7mdv2011.0
++ Revision: 618367
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.2.3-6mdv2010.0
++ Revision: 428964
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.2.3-5mdv2009.0
++ Revision: 245448
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.2.3-3mdv2008.1
++ Revision: 140731
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import ftpproxy
+
+
+* Tue May 16 2006 Lenny Cartier <lenny@mandriva.com> 1.2.3-3mdk
+- rebuild
+
+* Thu Feb 10 2005 Tibor Pittich <Tibor.Pittich@mandrake.org> 1.2.3-2mdk
+- rebuild
+
+* Tue Feb 8 2005 Tibor Pittich <Tibor.Pittich@mandrake.org> 1.2.3-1mdk
+- 1.2.3
+
+* Mon Jan 5 2003 Tibor Pittich <Tibor.Pittich@mandrake.org> 1.2.2-1mdk
+- initial contrib import
