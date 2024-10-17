@@ -9,7 +9,7 @@ Version:        %version
 Release:        %release
 License:        GPL
 Group:          Networking/File transfer
-URL:            http://www.ftpproxy.org/
+URL:            https://www.ftpproxy.org/
 Source0:        %name-%version.tar.bz2
 BuildRoot:      %_tmppath/%name-buildroot
 
