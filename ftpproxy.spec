@@ -13,6 +13,7 @@ URL:            https://www.ftpproxy.org/
 Source0:        %name-%version.tar.bz2
 BuildRoot:      %_tmppath/%name-buildroot
 
+BuildRequires:	make
 %description
 ftp.proxy is an application level gateway for FTP. It sits between a client and
 a server forwarding command and data streams supporting a subset of the file
